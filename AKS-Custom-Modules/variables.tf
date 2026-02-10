@@ -1,0 +1,11 @@
+variable "location" {}
+variable "resource_group_name" {}
+variable "vnet_name" {}
+variable "vnet_address_space" {}
+variable "subnet_name" {}
+variable "subnet_address_prefix" {}
+variable "aks_cluster_name" {}
+variable "node_pool_name" {}
+variable "vm_size" {}
+variable "min_nodes" {}
+variable "max_nodes" {}

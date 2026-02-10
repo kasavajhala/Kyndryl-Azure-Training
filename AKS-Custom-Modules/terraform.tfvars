@@ -1,0 +1,11 @@
+location = "East US"
+resource_group_name = "Mohan-RG"
+vnet_name = "Mohan-Test-VNET"
+vnet_address_space = ["10.0.0.0/16"]
+subnet_name = "Mohan-Public-Subnet"
+subnet_address_prefix = ["10.0.1.0/24"]
+aks_cluster_name = "Mohan-Test-AKS"
+node_pool_name = "mohanpool"
+vm_size = "Standard_D2ds_v4"
+min_nodes = 1
+max_nodes = 5
